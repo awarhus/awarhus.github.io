@@ -4,10 +4,6 @@ author: "Allison Warhus"
 date: "9/11/2021"
 ---
 
-```{r}
-knitr::opts_chunk$set(fig.path = "../images/")
-```
-
 ## Programming Background Blog Post
 
 I prefer R over all other programs I have learned. I find it significantly more intuitive and less convoluted than other programs. I like that R is open source, so there are a lot of different packages to help you achieve whatever it is you are trying to do. I also like how much documentation there is available about those packages online.
@@ -16,10 +12,5 @@ I don't miss anything about other languages. I do like like programming except i
 ## Example R Markdown Output
 
 ```{r}
-plot(iris)
+plot(mtcars)
 ```
-
-
-rmarkdown::render("C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd", output_format = "github_document", output_dir ="C:/Users/ejwar/Desktop/awarhus.github.io/_posts",output_options = list(html_preview = FALSE))
-
-C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd
