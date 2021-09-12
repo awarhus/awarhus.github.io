@@ -3,10 +3,6 @@ Programming Background
 Allison Warhus
 9/11/2021
 
-``` r
-knitr::opts_chunk$set(fig.path = "../images/")
-```
-
 ## Programming Background Blog Post
 
 I prefer R over all other programs I have learned. I find it
@@ -26,9 +22,11 @@ plot(iris)
 
 ![](../images/unnamed-chunk-2-1.png)<!-- -->
 
-rmarkdown::render(“C:/Users/ejwar/Desktop/awarhus.github.io/call\_Rmd/2020-9-11-Programming-Background.Rmd”,
-output\_format = “github\_document”, output\_dir
-="C:/Users/ejwar/Desktop/awarhus.github.io/\_posts",output\_options =
-list(html\_preview = FALSE))
+## Here is my render code
 
-C:/Users/ejwar/Desktop/awarhus.github.io/call\_Rmd/2020-9-11-Programming-Background.Rmd
+``` r
+rmarkdown::render("C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd", 
+  output_format = "github_document", 
+  output_dir ="C:/Users/ejwar/Desktop/awarhus.github.io/_posts",
+  output_options = list(html_preview = FALSE))
+```
