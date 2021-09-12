@@ -3,6 +3,10 @@ Programming Background
 Allison Warhus
 9/11/2021
 
+``` r
+knitr::opts_chunk$set(fig.path = "../images/")
+```
+
 ## Programming Background Blog Post
 
 I prefer R over all other programs I have learned. I find it
@@ -17,7 +21,14 @@ is tedious, but never difficult.
 ## Example R Markdown Output
 
 ``` r
-plot(mtcars)
+plot(iris)
 ```
 
-![](C:/Users/ejwar/Desktop/awarhus.github.io/_posts/2020-9-11-Programming-Background_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](../images/unnamed-chunk-2-1.png)<!-- -->
+
+rmarkdown::render(“C:/Users/ejwar/Desktop/awarhus.github.io/call\_Rmd/2020-9-11-Programming-Background.Rmd”,
+output\_format = “github\_document”, output\_dir
+="C:/Users/ejwar/Desktop/awarhus.github.io/\_posts",output\_options =
+list(html\_preview = FALSE))
+
+C:/Users/ejwar/Desktop/awarhus.github.io/call\_Rmd/2020-9-11-Programming-Background.Rmd
