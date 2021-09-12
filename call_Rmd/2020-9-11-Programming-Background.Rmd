@@ -4,7 +4,7 @@ author: "Allison Warhus"
 date: "9/11/2021"
 ---
 
-```{r}
+```{r, echo=FALSE}
 knitr::opts_chunk$set(fig.path = "../images/")
 ```
 
@@ -19,7 +19,10 @@ I don't miss anything about other languages. I do like like programming except i
 plot(iris)
 ```
 
+## Here is my render code
 
-rmarkdown::render("C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd", output_format = "github_document", output_dir ="C:/Users/ejwar/Desktop/awarhus.github.io/_posts",output_options = list(html_preview = FALSE))
+rmarkdown::render("C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd", 
+  output_format = "github_document", 
+  output_dir ="C:/Users/ejwar/Desktop/awarhus.github.io/_posts",
+  output_options = list(html_preview = FALSE))
 
-C:/Users/ejwar/Desktop/awarhus.github.io/call_Rmd/2020-9-11-Programming-Background.Rmd
