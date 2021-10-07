@@ -26,4 +26,4 @@ I always use when coding and it works well for me. I like to get the basics out 
 Link to repo: https://github.com/awarhus/Project1
 
 
-Link to post: awarhus.github.io/Project1
+Link to post: https://awarhus.github.io/Project1
