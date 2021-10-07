@@ -24,4 +24,6 @@ I added user customizations for the functions, I made my graphs look nicer, etc.
 I always use when coding and it works well for me. I like to get the basics out of the way first and worry about the details later.
 
 Link to repo: https://github.com/awarhus/Project1
+
+
 Link to post: awarhus.github.io/Project1
