@@ -1,0 +1,9 @@
+My partner and I complete an analysis of the mashable.com data and the number of shares a post receives. We analyzed the data through OLS, Poisson regression, random forests and
+boosted trees. We found that depending on the channel (social media, entertainment, lifestyle, business, world and technology) a different model performed best. 
+If we were to do this project again, I would have chosen to analyze the models rather than complete the automation part. I felt like the automation was useful to do, but I missed 
+out on drawing the big conclusions because I did not do the final analysis and model decision.
+The most difficult part for me was understanding how to get the different pages for the different channel. My partner was extremely helpful for that.
+I have one big takeaway. That is that I need some serious support with github and github pages because every time I need to work with it I struggle.
+
+Project link: https://brennan-clinch.github.io/Project2/
+Repo link: https://github.com/Brennan-Clinch/Project2
